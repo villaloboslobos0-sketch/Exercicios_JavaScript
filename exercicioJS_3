@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex 3 - Questões</title>
+
+  </head>
+  <body>
+     <div class="question">
+            Pergunta: Qual é a capital do Brasil?
+      
+        <div class="option" data-correct="false">A) Rio de Janeiro</div> 
+        <div class="option" data-correct="false">B) São Paulo</div>
+        <div class="option" data-correct="true">C) Brasília</div>
+        <div class="option" data-correct="false">D) Salvador</div>
+        
+        <div class="feedback" id="feedback"></div>
+        <button onclick="resetQuiz()">Tentar Novamente</button>
+    </div>
+    
+    
+    <script src="script_03.js"></script>
+</body>
+</html>
